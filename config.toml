@@ -1,0 +1,25 @@
+
+baseURL = "http://example.org/"
+theme = "ananke"
+DefaultContentLanguage = "en"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[languages]
+  [languages.ru]
+    title = "Таня Новоселова"
+    weight = 2
+    languageCode = "ru-ru"
+  [languages.en]
+    title = "Tatsiana Navasiolava"
+    weight = 1
+    languageCode = "en-us"
+
+
+[params]
+  featured_image = "/images/cover.jpg"
+  instagram = "https://www.instagram.com/nowossjolka"
+  github = "https://www.github.com/nowossjolka"
